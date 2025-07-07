@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, Code, Briefcase, Database, Globe } from 'lucide-react';
 
+
 const Hero: React.FC = () => {
   const scrollToContact = () => {
     const element = document.querySelector('#contact');
@@ -82,12 +83,15 @@ const Hero: React.FC = () => {
             <div className="relative">
               <div className="w-80 h-80 bg-gradient-to-br from-blue-100 to-teal-100 rounded-2xl flex items-center justify-center border-4 border-white shadow-2xl">
                 <div className="text-center space-y-4">
-                  <div className="w-32 h-32 bg-gradient-to-br from-blue-600 to-teal-600 rounded-full flex items-center justify-center mx-auto">
-                    <span className="text-4xl font-bold text-white">ES</span>
-                  </div>
+             
                   <div className="space-y-2">
-                    <p className="text-lg font-semibold text-gray-800">Professional Photo</p>
-                    <p className="text-sm text-gray-600">Upload your photo here</p>
+                         <img
+                  src="/src/Img/Photo.jpg"
+                  alt="Esmael Seid - Professional Developer & Virtual Assistant"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
+                  
+                    
                   </div>
                 </div>
               </div>
